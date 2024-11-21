@@ -1,0 +1,12 @@
+local code
+
+if game.Players.LocalPlayer:FindFirstChildWhichIsA("Tool") then
+    if game.Players.LocalPlayer:FindFirstChildWhichIsA("Tool"):FindFirstChild("link") then
+        code = game.Players.LocalPlayer:FindFirstChildWhichIsA("Tool"):FindFirstChild("link").Value
+        print(code)
+    end
+end
+
+
+game:GetService("Players").AryScarlet.Backpack
+workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
